@@ -1,0 +1,21 @@
+import java.util.*;
+
+class Print{
+
+public static void display (String name, int yoj, String address){
+
+  System.out.println(name+" "+yoj+" "+address);
+  
+  }
+
+  public static void main(String [] args){
+    
+    System.out.println("Name "+" Year of joining "+ " Address ");
+   Print p = new Print();
+   p.display("Robert",1994,"64C- WallsStreet");
+   p.display("Sam",2000,"68D- WallsStreet");
+   p.display("John",1999,"26B- WallsStreet");
+   }
+}
+   
+
